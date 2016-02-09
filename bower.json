@@ -1,0 +1,35 @@
+{
+  "name": "qm",
+  "description": "Quick Motlakase service app.",
+  "main": "app.js",
+  "authors": [
+    "Onalethata Tautona <onnytau@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "vending",
+    "electricity",
+    "botswana"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic-ui-button": "~2.1.7",
+    "semantic-ui-grid": "~2.1.7",
+    "semantic-ui-header": "~2.1.7",
+    "semantic-ui-form": "~2.1.7",
+    "semantic-ui-menu": "~2.1.7",
+    "semantic-ui-message": "~2.1.7",
+    "semantic-ui-icon": "~2.1.7"
+  }
+}
