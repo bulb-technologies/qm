@@ -1,11 +1,15 @@
 /*import from semantic-ui*/
 @import "/semantic-ui-button/button.css";
+@import "/semantic-ui-input/input.css";
 @import "/semantic-ui-form/form.css";
 @import "/semantic-ui-grid/grid.css";
 @import "/semantic-ui-header/header.css";
 @import "/semantic-ui-icon/icon.css";
 @import "/semantic-ui-menu/menu.css";
 @import "/semantic-ui-message/message.css";
+
+/*import from google fonts*/
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700";
 
 html{
 
@@ -18,5 +22,12 @@ body{
 
     height: inherit;
     margin: inherit;
+    font-family: Open Sans;
+
+}
+
+#login-form-column{
+
+    margin-top: 16em;
 
 }
