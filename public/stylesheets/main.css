@@ -6,3 +6,17 @@
 @import "/semantic-ui-icon/icon.css";
 @import "/semantic-ui-menu/menu.css";
 @import "/semantic-ui-message/message.css";
+
+html{
+
+    height: 100%;
+    margin: 0;
+
+}
+
+body{
+
+    height: inherit;
+    margin: inherit;
+
+}
