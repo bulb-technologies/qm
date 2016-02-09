@@ -8,4 +8,12 @@ html(lang='en')
     // CSS Start
     link(rel='stylesheet' type='text/css' href='/stylesheets/main.css')
     // CSS End
-  body
+  body.ui.one.column.centered.padded.grid
+        #login-form-column.four.wide.column.center.aligned
+            h3.ui.header Administrator Login
+            p Please provide your administrator login email.
+            form.ui.form(ng-controller="" novalidate)
+                div.field
+                    div.ui.small.action.input
+                        input(type="email" placeholder="Email")
+                        button.ui.blue.button Send Token
